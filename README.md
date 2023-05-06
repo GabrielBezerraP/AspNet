@@ -6,8 +6,7 @@ Um cadastro de usuário simples, onde poderá criar novos usuário, buscar todos
 
 No arquivo appsettings.json/appsettings.Development.json esta configurado para acessar o Banco de dados SQL com usuario 'sa' e password 'dba' padrão do SQL Server
 
-Ao iniciar o projeto é necessário rodar a Migration já utilizada para o projeto com o comando 
-#Update-Database -Context SistemaTarefasDbContext
+Ao iniciar o projeto é necessário rodar a Migration já utilizada para o projeto com o comando : 'Update-Database -Context SistemaTarefasDbContext
 
 
 
